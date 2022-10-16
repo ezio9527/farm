@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "PingFangSC-Regular";
+    src: url("./PingFang-W4.ttc") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.test1 {
+    font-family: 'PingFangSC-Regular';
+}

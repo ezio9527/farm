@@ -1,0 +1,18 @@
+{
+  "production": {
+    "Farm": {
+      "address": "0x8bcc5c6a888d4bd14EA2ed0bAB9d4f8EC240F1ae"
+    },
+    "Token": {
+      "address": "0xbbDeabFA33C0c4bABA4a2908200da66DE7e8Af18"
+    }
+  },
+  "development": {
+    "Farm": {
+      "address": "0xCe857FC28461905D2AFA3C941351A2a2655Ea848"
+    },
+    "Token": {
+      "address": "0x1180fd0Be0559C8300fa6aD88E3348dB418DBEfF"
+    }
+  }
+}

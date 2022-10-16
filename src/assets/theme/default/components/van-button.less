@@ -1,0 +1,36 @@
+.van-button.van-button--default.van-dialog__cancel {
+  --van-button-default-color: var(--base-text-color-black);
+}
+.van-button.van-button--default {
+  --van-button-default-color: var(--base-text-color-default);
+  --van-button-default-background-color: var(--base-second-color);
+  --van-button-default-border-color: var(--base-second-color);
+  font: var(--base-text-font-default);
+  --van-button-default-font-size: var(--base-font-size-mini);
+  --van-button-border-radius: var(--base-border-radius-large);
+  --van-button-default-height: 30px;
+}
+.van-button.van-button--plain {
+  --van-button-default-color: var(--base-text-color-dark);
+}
+.van-button.van-button--primary {
+  --van-button-primary-color: var(--base-text-color-default);
+  --van-button-primary-background-color: var(--base-primary-color);
+  --van-button-primary-border-color: var(--base-primary-color);
+  font: var(--base-text-font-default);
+  font-size: var(--base-font-size-large);
+  --van-button-border-radius: var(--base-border-radius-large);
+  --van-button-default-height: 48px;
+  margin-top: 7px;
+  box-shadow: 0px -8px 7px 1px rgba(0, 19, 99, 0.09);
+  &:active {
+    box-shadow: none;
+  }
+  &.van-button--disabled {
+    --van-button-primary-color: var(--base-text-color-dark);
+    --van-button-primary-background-color: var(--base-background-color-gray);
+    --van-button-primary-border-color: var(--base-background-color-gray);
+    opacity: 1;
+    box-shadow: 0px -8px 7px 1px rgba(190, 190, 190, 0.16);
+  }
+}
