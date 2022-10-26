@@ -1,7 +1,7 @@
 {
   "production": {
     "Farm": {
-      "address": "0x8bcc5c6a888d4bd14EA2ed0bAB9d4f8EC240F1ae"
+      "address": "0x22A4d695d60A5d9D19FBBba1E3aa6F24f2924809"
     },
     "Token": {
       "address": "0xbbDeabFA33C0c4bABA4a2908200da66DE7e8Af18"
